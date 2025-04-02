@@ -64,3 +64,14 @@ function exercicio5()
                                                   "</p>";
 }
   
+function exercicio6()
+{
+  let num1 = document.getElementById("num1").value;
+  let num2 = document.getElementById("num2").value;
+
+   if (num1 = num2) then
+   console.writeline("Os números são iguais!")
+   else (num1 != num2)
+   console.writeline("Os números são diferentes!")
+ 
+}
