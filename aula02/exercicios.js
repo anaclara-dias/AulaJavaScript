@@ -71,7 +71,7 @@ function exercicio6()
 
    if (num1 = num2) then
    console.writeline("Os números são iguais!")
-   else (num1 != num2)
-   console.writeline("Os números são diferentes!")
+   //else (num1 != num2)
+   //console.writeline("Os números são diferentes!")
  
 }
