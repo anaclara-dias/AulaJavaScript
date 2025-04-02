@@ -57,6 +57,10 @@ function exercicio5()
 {
   let valorL = document.getElementById("valorL").value;
    
-  let valorQ = Number(valorL)
-  
+  let valorQ = Number(valorL) * Number(valorL);
+
+  document.getElementById("Mensagem").innerHTML = "<p> o lado do quadrado é = " + valorL +
+                                                  "<br> A area do quadrado é: " + valorQ +
+                                                  "</p>";
 }
+  
