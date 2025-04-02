@@ -69,9 +69,46 @@ function exercicio6()
   let num1 = document.getElementById("num1").value;
   let num2 = document.getElementById("num2").value;
 
-   if (num1 = num2) then
-   console.writeline("Os números são iguais!")
-   //else (num1 != num2)
-   //console.writeline("Os números são diferentes!")
- 
+   if (num1 == num2){
+   "Os números são iguais!";
+
+   } else if (num1 != num2) {
+   "Os números são diferentes!";
+   }
+}
+
+function exercicio7()
+{
+  let num1 = document.getElementById("num1").value;
+  let num2 = document.getElementById("num2").value;
+  let num3 = document.getElementById("num3").value;
+
+  if(num1 + num2 < num3 ){
+    "O resultado da soma é menor que o terceiro numero digitado";
+  } else {
+    "O resultado da soma é maior que o terceiro numero digitado é"
+  }
+}
+
+function exercicio8()
+{
+ let salario = document.getElementById("salario").value;
+
+ if (salario < 500 ){
+  mensagem = "Você tem direito ao aumento de salário";
+ } else if (salario > 500){
+  mensagem = "Você não tem direito ao aumento de salário";
+ }
+}
+
+function exercicio9(){
+  let salario = document.getEelemntbyId("salario").value;
+
+  let reajuste = Number(salario) * 30 / 100;
+
+  if (salario > 500){
+    mensagem = "Você não tem direito ao aumento de salário";
+  } else if (salario <= 500){
+    mensagem = " O valor do salário reajustado fica: " + reajuste + "."; 
+  }
 }
